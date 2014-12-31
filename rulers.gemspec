@@ -21,5 +21,8 @@ Gem::Specification.new do |spec|
   spec.add_development_dependency "bundler", "~> 1.6"
   spec.add_development_dependency "rake", "~> 10.0"
   spec.add_development_dependency "rspec"
-  spec.add_runtime_dependency "rack"
+  spec.add_runtime_dependency "rack" # gem to interface framework to a ruby application server
+
+  # Ruby app server is special web server to runs server applications
+  # Rack is how ruby turns http requests into code
 end
